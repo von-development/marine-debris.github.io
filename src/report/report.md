@@ -33,17 +33,17 @@ O conjunto de dados está organizado da seguinte forma:
 - **Imagens Multi-rótulo**: 769 (55.7%)
 - **Média de Rótulos por Imagem**: 1.88
 
-![Distribuição de Labels por Imagem](results/data_distribution/dataset_statistics_labels_dist.png)
+![Distribuição de Labels por Imagem](../data_distribution/dataset_statistics_labels_dist.png)
 
 A distribuição de rótulos por imagem mostra que a maioria das imagens possui entre 1 e 3 classes diferentes, indicando a complexidade do dataset.
 
 #### 3.2 Distribuição Single vs Multi-Label
-![Distribuição Single vs Multi-Label](results/data_distribution/dataset_statistics_multilabel_dist.png)
+![Distribuição Single vs Multi-Label](../data_distribution/dataset_statistics_multilabel_dist.png)
 
 O gráfico acima mostra que mais da metade das imagens (55.7%) contém múltiplas classes, o que indica a necessidade de uma abordagem que lide adequadamente com classificação multi-rótulo.
 
 #### 3.3 Distribuição de Classes
-![Distribuição de Classes](results/data_distribution/dataset_statistics_class_dist.png)
+![Distribuição de Classes](../data_distribution/dataset_statistics_class_dist.png)
 
 A análise da distribuição de classes revela:
 - **Classe Dominante**: Marine Water (870 ocorrências)
@@ -54,7 +54,7 @@ A análise da distribuição de classes revela:
   - Foam (59 ocorrências)
 
 #### 3.4 Exemplo de Imagem e Máscaras
-![Análise de Imagem Exemplo](results/data_distribution/sample_image_analysis.png)
+![Análise de Imagem Exemplo](../data_distribution/sample_image_analysis.png)
 
 A imagem acima mostra:
 1. **Imagem Original**: Visualização RGB usando as bandas do Sentinel-2
