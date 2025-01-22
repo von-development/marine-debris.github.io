@@ -1,0 +1,35 @@
+# Dataset configuration
+path: ${PROJECT_ROOT}/data  # root directory
+train: splits/train_X.txt
+val: splits/val_X.txt
+test: splits/test_X.txt
+
+# Classes
+nc: 15  # number of classes
+names: [
+    'marine_debris',
+    'dense_plastic',
+    'sparse_plastic',
+    'dense_sargassum',
+    'sparse_sargassum',
+    'natural_organic',
+    'ship',
+    'cloud',
+    'cloud_shadow',
+    'water',
+    'water_turbid',
+    'water_sediment',
+    'land',
+    'floating_algae',
+    'other'
+]
+
+# Training parameters
+batch: 32
+epochs: 100
+imgsz: 256
+
+# File structure
+image_pattern: "S2_{id}.tif"  # Como as imagens são nomeadas
+label_pattern: "S2_{id}_cl.tif"  # Padrão dos arquivos de label
+confidence_pattern: "S2_{id}_conf.tif"  # Padrão dos arquivos de confiança

@@ -1,0 +1,39 @@
+=== Análise do Dataset MARIDA ===
+
+Total de imagens: 1381
+Imagens com múltiplos rótulos: 769
+Média de rótulos por imagem: 1.88
+
+Divisão do Dataset:
+test_X: 359 imagens
+train_X: 694 imagens
+val_X: 328 imagens
+
+Distribuição de Classes:
+Marine Debris: 373
+Dense Sargassum: 49
+Sparse Sargassum: 106
+Natural Organic Material: 71
+Ship: 182
+Clouds: 181
+Marine Water: 870
+Sediment-Laden Water: 51
+Foam: 59
+Turbid Water: 220
+Shallow Water: 64
+Waves: 54
+Cloud Shadows: 71
+Wakes: 106
+Mixed Water: 140
+
+Metadados da Imagem de Exemplo:
+driver: GTiff
+dtype: float32
+nodata: None
+width: 256
+height: 256
+count: 11
+crs: EPSG:32748
+transform: | 10.00, 0.00, 706740.00|
+| 0.00,-10.00, 9340960.00|
+| 0.00, 0.00, 1.00|
