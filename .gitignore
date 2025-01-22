@@ -1,0 +1,36 @@
+
+---
+
+## .gitignore
+
+```gitignore
+# Ignore data, logs, model checkpoints, and other large files
+data/
+logs/
+*.log
+*.csv
+*.h5
+*.tif
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+#retirar depois o json e jupyer
+marida_multi_models.json
+marida_multi_models.ipynb 
+marida_yolo.yaml 
+yolov8n.pt
